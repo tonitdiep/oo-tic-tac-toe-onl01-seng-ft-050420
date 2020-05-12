@@ -68,6 +68,7 @@ class TicTacToe
     @board[win_combo[0]] == @board[win_combo[1]] && @board[win_combo[1]] == @board[win_combo[2]] && position_taken?(win_combo[1])
     end 
   end
+
  
   def full?
     if @board.include?(" ") || @board.include?(" ")

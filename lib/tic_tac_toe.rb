@@ -121,8 +121,17 @@ class TicTacToe
       puts "Cat's Game!"
     end
   end
-  
-end
+
+  #   if winner 
+  #     puts "Congratulations #{winner}!"
+  #   elsif won?
+  #     puts "Congratulations #{winner}"
+  #   else draw?
+  #     puts "Cat's Game!"
+  #   end
+  # end
+end  
+
 
 
 

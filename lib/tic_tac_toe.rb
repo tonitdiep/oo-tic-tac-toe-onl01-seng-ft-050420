@@ -1,3 +1,4 @@
+require 'pry'
 class TicTacToe
   def initialize(board = nil)
     @board = board || Array.new(9, " ")
@@ -109,18 +110,20 @@ class TicTacToe
     end
 
   def play
+    
     until over?
       turn
     end
+    
     if winner 
-      "Congratulations X!"
-    elsif draw?
-      "Cat's Game!"
-    else 
-      "Congratulations O!"
+      puts "Congratulations #{winner}!"
+    else draw?
+      puts "Cat's Game!"
     end
   end
 
 end
+
+
 
 
